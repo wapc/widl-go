@@ -1023,7 +1023,7 @@ func parseRoleDefinition(parser *Parser) (ast.Node, error) {
 	if err != nil {
 		return nil, err
 	}
-	_, err = expectKeyWord(parser, lexer.INTERFACE)
+	_, err = expectKeyWord(parser, lexer.ROLE)
 	if err != nil {
 		return nil, err
 	}
